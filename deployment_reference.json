@@ -1,0 +1,339 @@
+{
+  "design_order": [
+    "age_at_stroke_h",
+    "bmi_model",
+    "cog_z_unified",
+    "adl_common5",
+    "iadl_common4",
+    "self_rated_health",
+    "hearing_h",
+    "gender",
+    "education_level2",
+    "education_level3",
+    "married_partnered",
+    "hypertension",
+    "diabetes",
+    "heart_disease_h",
+    "smoke_ever",
+    "smoke_current",
+    "alcohol_use",
+    "depressive_symptoms"
+  ],
+  "continuous": [
+    "age_at_stroke_h",
+    "bmi_model",
+    "cog_z_unified",
+    "adl_common5",
+    "iadl_common4",
+    "self_rated_health",
+    "hearing_h"
+  ],
+  "binary": [
+    "gender",
+    "education_level2",
+    "education_level3",
+    "married_partnered",
+    "hypertension",
+    "diabetes",
+    "heart_disease_h",
+    "smoke_ever",
+    "smoke_current",
+    "alcohol_use",
+    "depressive_symptoms"
+  ],
+  "public_aliases": {
+    "age_at_stroke_h": "age"
+  },
+  "centering_values": {
+    "age_at_stroke_h": 0.0,
+    "bmi_model": 0.0,
+    "cog_z_unified": -0.0,
+    "adl_common5": -0.0,
+    "iadl_common4": 0.0,
+    "self_rated_health": 0.0,
+    "hearing_h": 0.0,
+    "gender": 0.462259,
+    "education_level2": 0.405221,
+    "education_level3": 0.118048,
+    "married_partnered": 0.639898,
+    "hypertension": 0.616629,
+    "diabetes": 0.220204,
+    "heart_disease_h": 0.270431,
+    "smoke_ever": 0.570942,
+    "smoke_current": 0.19126,
+    "alcohol_use": 0.456867,
+    "depressive_symptoms": 0.312997
+  },
+  "reference_values": {
+    "age_at_stroke_h": 71.0,
+    "bmi_model": 26.6,
+    "cog_z_unified": -0.045,
+    "adl_common5": 0.0,
+    "iadl_common4": 0.0,
+    "self_rated_health": 3.0,
+    "hearing_h": 3.0,
+    "gender": 0,
+    "education_level2": 0,
+    "education_level3": 0,
+    "married_partnered": 1,
+    "hypertension": 1,
+    "diabetes": 0,
+    "heart_disease_h": 0,
+    "smoke_ever": 1,
+    "smoke_current": 0,
+    "alcohol_use": 0,
+    "depressive_symptoms": 0
+  },
+  "input_ranges": {
+    "age_at_stroke_h": [
+      48.0,
+      95.0
+    ],
+    "bmi_model": [
+      16.5,
+      49.9
+    ],
+    "cog_z_unified": [
+      -1.95,
+      2.02
+    ],
+    "adl_common5": [
+      0.0,
+      5.0
+    ],
+    "iadl_common4": [
+      0.0,
+      4.0
+    ],
+    "self_rated_health": [
+      1.0,
+      5.0
+    ],
+    "hearing_h": [
+      1.0,
+      5.0
+    ],
+    "gender": [
+      0,
+      1
+    ],
+    "education_level2": [
+      0,
+      1
+    ],
+    "education_level3": [
+      0,
+      1
+    ],
+    "married_partnered": [
+      0,
+      1
+    ],
+    "hypertension": [
+      0,
+      1
+    ],
+    "diabetes": [
+      0,
+      1
+    ],
+    "heart_disease_h": [
+      0,
+      1
+    ],
+    "smoke_ever": [
+      0,
+      1
+    ],
+    "smoke_current": [
+      0,
+      1
+    ],
+    "alcohol_use": [
+      0,
+      1
+    ],
+    "depressive_symptoms": [
+      0,
+      1
+    ]
+  },
+  "coefficients": {
+    "age_at_stroke_h": {
+      "label": "Age at stroke",
+      "HR": 1.2582075424198242,
+      "HR_ci_lo": 1.114343485587798,
+      "HR_ci_hi": 1.430162450791404,
+      "p": 0.0019980019980019
+    },
+    "bmi_model": {
+      "label": "BMI",
+      "HR": 0.907417586966955,
+      "HR_ci_lo": 0.7827018027206963,
+      "HR_ci_hi": 1.0236451758572864,
+      "p": 0.1238761238761238
+    },
+    "cog_z_unified": {
+      "label": "Pre-stroke cognition (Z)",
+      "HR": 0.5421407853632445,
+      "HR_ci_lo": 0.4730928084443536,
+      "HR_ci_hi": 0.6133259482716232,
+      "p": 0.0019980019980019
+    },
+    "adl_common5": {
+      "label": "ADL difficulties",
+      "HR": 1.011717244470422,
+      "HR_ci_lo": 0.8838688825198766,
+      "HR_ci_hi": 1.1455985221655312,
+      "p": 0.8711288711288712
+    },
+    "iadl_common4": {
+      "label": "IADL difficulties",
+      "HR": 0.9092250056246968,
+      "HR_ci_lo": 0.8004633746794522,
+      "HR_ci_hi": 1.0155503391257716,
+      "p": 0.0839160839160839
+    },
+    "self_rated_health": {
+      "label": "Self-rated health",
+      "HR": 0.9326094361963876,
+      "HR_ci_lo": 0.8328875259044056,
+      "HR_ci_hi": 1.0496414933524758,
+      "p": 0.2217782217782218
+    },
+    "hearing_h": {
+      "label": "Hearing (1 excellent to 5 poor)",
+      "HR": 1.0355573016638264,
+      "HR_ci_lo": 0.9291344058028792,
+      "HR_ci_hi": 1.1494712041640724,
+      "p": 0.5374625374625375
+    },
+    "gender": {
+      "label": "Male sex",
+      "HR": 1.0146669726344406,
+      "HR_ci_lo": 0.7881297488058914,
+      "HR_ci_hi": 1.283053569043063,
+      "p": 0.8871128871128872
+    },
+    "education_level2": {
+      "label": "Education level 2 vs 1",
+      "HR": 0.5968503888403899,
+      "HR_ci_lo": 0.4721571238868892,
+      "HR_ci_hi": 0.7447536401512026,
+      "p": 0.0019980019980019
+    },
+    "education_level3": {
+      "label": "Education level 3 vs 1",
+      "HR": 0.4337689179973572,
+      "HR_ci_lo": 0.2508414420239279,
+      "HR_ci_hi": 0.6555921537359183,
+      "p": 0.0019980019980019
+    },
+    "married_partnered": {
+      "label": "Married/partnered",
+      "HR": 1.0025207418400095,
+      "HR_ci_lo": 0.7999571218096966,
+      "HR_ci_hi": 1.265597364819404,
+      "p": 0.967032967032967
+    },
+    "hypertension": {
+      "label": "Hypertension",
+      "HR": 0.7846079811684281,
+      "HR_ci_lo": 0.6299925221476821,
+      "HR_ci_hi": 0.985110951717966,
+      "p": 0.0259740259740259
+    },
+    "diabetes": {
+      "label": "Diabetes",
+      "HR": 0.9909656889031908,
+      "HR_ci_lo": 0.7433463174319165,
+      "HR_ci_hi": 1.2845986941762118,
+      "p": 0.9410589410589412
+    },
+    "heart_disease_h": {
+      "label": "Heart disease",
+      "HR": 0.9223805025023954,
+      "HR_ci_lo": 0.702369567190798,
+      "HR_ci_hi": 1.1572869488782658,
+      "p": 0.4875124875124875
+    },
+    "smoke_ever": {
+      "label": "Ever smoked",
+      "HR": 1.0972402172458824,
+      "HR_ci_lo": 0.8442934129669999,
+      "HR_ci_hi": 1.359690477627198,
+      "p": 0.4495504495504495
+    },
+    "smoke_current": {
+      "label": "Current smoker",
+      "HR": 0.836880495403973,
+      "HR_ci_lo": 0.6042001405074989,
+      "HR_ci_hi": 1.1472985910049405,
+      "p": 0.2737262737262737
+    },
+    "alcohol_use": {
+      "label": "Alcohol use",
+      "HR": 1.149307044014973,
+      "HR_ci_lo": 0.924573826464098,
+      "HR_ci_hi": 1.4327907459212643,
+      "p": 0.2097902097902098
+    },
+    "depressive_symptoms": {
+      "label": "Elevated depressive symptoms",
+      "HR": 1.2002344442192576,
+      "HR_ci_lo": 0.956585023160093,
+      "HR_ci_hi": 1.5212923868423014,
+      "p": 0.1378621378621378
+    }
+  },
+  "cif_mode": true,
+  "risk_cutpoints": {
+    "basis": "predicted 5-year PSCI cumulative incidence, development cohort tertiles",
+    "t33": 0.0617,
+    "t67": 0.1241,
+    "median": 0.089
+  },
+  "p_value_floor": 0.001998,
+  "merge_bars": {
+    "Education (vs level 1)": [
+      "education_level2",
+      "education_level3"
+    ]
+  },
+  "performance": {
+    "internal": {
+      "n": 705,
+      "c_index": 0.776,
+      "lo": 0.724,
+      "hi": 0.823
+    },
+    "external_share": {
+      "n": 2077,
+      "c_index": 0.749,
+      "lo": 0.718,
+      "hi": 0.778
+    }
+  },
+  "cohort": {
+    "development_cohorts": [
+      "CHARLS",
+      "HRS",
+      "ELSA",
+      "MHAS"
+    ],
+    "external_cohort": [
+      "SHARE"
+    ],
+    "n_development": 3524,
+    "n_external": 2077,
+    "n_psci": 448,
+    "n_death_before_psci": 873,
+    "pct_death_before_psci": 24.8,
+    "max_follow_up_years": 10
+  },
+  "manifest": {
+    "step_d_version": "v4_FINAL_original_cohort_definition_20260825",
+    "primary_psci_threshold": -2.0,
+    "max_follow_up_years": 10.0
+  }
+}

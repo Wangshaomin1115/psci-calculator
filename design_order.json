@@ -1,0 +1,20 @@
+[
+  "age_at_stroke_h",
+  "bmi_model",
+  "cog_z_unified",
+  "adl_common5",
+  "iadl_common4",
+  "self_rated_health",
+  "hearing_h",
+  "gender",
+  "education_level2",
+  "education_level3",
+  "married_partnered",
+  "hypertension",
+  "diabetes",
+  "heart_disease_h",
+  "smoke_ever",
+  "smoke_current",
+  "alcohol_use",
+  "depressive_symptoms"
+]
